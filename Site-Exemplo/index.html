@@ -10,5 +10,18 @@
     <hr>
     <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam modi soluta ratione. Temporibus doloribus voluptate similique doloremque totam eius minus culpa tenetur reiciendis nemo repellat omnis eos est, exercitationem explicabo?</P>
     <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod vel facilis non quaerat reprehenderit facere, culpa officia quia cum nisi esse nihil ullam reiciendis a magni ducimus perferendis labore ex?</P>
-</body>
+<script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+</script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+            .withAppKey('bWljcm9zb2Z0dGVhbXN2aXZvOjQ1NjhlZWI3LTIxYzMtNDE1ZC04MzY3LTQyMDQyMTY1YjFmMw==')
+            .withButton({"color":"#6a069b","icon":""})
+            .withCustomCommonUrl('https://chat.blip.ai/')
+            .build();
+        }
+    })();
+</script>
+    </body>
 </html>
